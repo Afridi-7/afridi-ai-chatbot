@@ -464,7 +464,7 @@ export function Sidebar({
             </div>
           </div>
 
-          {/* Chat Sessions */}
+          {/* Chat Sessions 
           <div className="flex-1 overflow-y-auto custom-scrollbar">
             <div className="p-4">
               {filteredSessions.length === 0 ? (
@@ -490,7 +490,7 @@ export function Sidebar({
               )}
             </div>
           </div>
-
+      */}
           {/* Settings Panel */}
           {showSettings && (
             <div className="absolute bottom-20 left-4 right-4 card-modern animate-scale-in z-50 max-h-96 overflow-y-auto">
